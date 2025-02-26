@@ -1,10 +1,14 @@
+import { useState } from 'react';
 import './App.css'
+import { LoadingScreen } from './components/LoadingScreen'
 
 function App() {
 
+  const [isLoaded, setIsLoaded] = useState(false);
+
   return (
     <>
-      <h3>fsdsdsd</h3>
+      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
     </>
   )
 }
