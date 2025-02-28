@@ -16,7 +16,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
 
                     {!menuOpen &&
                         <div className={`w-7 h-5 cursor-pointer relative z-40 md:hidden`}
-                            onClick={() => setMenuOpen((prev) => !prev)}>&#9776;</div>
+                            onClick={() => setMenuOpen((prev) => !prev)}>
+                            &#9776;
+                        </div>
                     }
 
                     <div className="hidden md:flex items-center space-x-8">
