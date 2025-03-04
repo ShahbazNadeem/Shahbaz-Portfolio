@@ -53,6 +53,10 @@ const About = () => {
                                     (2021-2025).
                                 </li>
                                 <li>
+                                    <strong>Intermediate in Computer Science </strong> - Aspire College
+                                    (2016-2018).
+                                </li>
+                                <li>
                                     <strong>Relevant Coursework</strong> - Web Development,  ...
                                 </li>
                             </ul>
