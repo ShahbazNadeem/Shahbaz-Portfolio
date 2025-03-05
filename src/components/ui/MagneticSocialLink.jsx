@@ -33,10 +33,10 @@ const MagneticSocialLink = ({ children, link }) => {
 };
 
 const SOCIAL_LINKS = [
-    { label: <FaGithub />, link: 'https://github.com/ShahbazNadeem' },
-    { label: <TbBrandLinkedin />, link: 'https://www.linkedin.com/in/shahbaznadeem' },
-    { label: <FaInstagram />, link: 'https://www.instagram.com/shahbaz_nadeem654/' },
-    { label: <FaWhatsapp />, link: 'https://wa.link/ix2zzq' },
+    { label: <FaGithub size={25}/>, link: 'https://github.com/ShahbazNadeem' },
+    { label: <TbBrandLinkedin size={25}/>, link: 'https://www.linkedin.com/in/shahbaznadeem' },
+    { label: <FaInstagram size={25}/>, link: 'https://www.instagram.com/shahbaz_nadeem654/' },
+    { label: <FaWhatsapp size={25}/>, link: 'https://wa.link/ix2zzq' },
 ];
 
 const MagneticSocialLinksDemo = () => {
