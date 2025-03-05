@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Copybutton from './ui/copybutton/Copybutton'
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
 
@@ -26,6 +27,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
                         <a href="#about" className='text-gray-300 hove:text-white transition-colors'>About</a>
                         <a href="#project" className='text-gray-300 hove:text-white transition-colors'>Projects</a>
                         <a href="#contact" className='text-gray-300 hove:text-white transition-colors'>Contact</a>
+                        <Copybutton />
                     </div>
                 </div>
             </div>

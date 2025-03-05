@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { RevealOnScroll } from './../RevealOnScroll';
+import { MagneticSocialLinksDemo } from '../ui/MagneticSocialLink';
 
 const Contact = () => {
 
@@ -28,7 +29,11 @@ const Contact = () => {
     return (
         <section id='contact' className='min-h-screen flex items-center justify-center py-20'>
             <RevealOnScroll>
-                <div className="px-4 w-90 sm:w-150">
+                <div className="flex flex-col items-center justify-center mb-9">
+                    <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center'>Find me here</h2>
+                    <MagneticSocialLinksDemo />
+                </div>
+                <div className="px-4 w-90 sm:w-120">
                     <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center'>Get In Touch</h2>
                     <form ref={form} onSubmit={handleSubmit} className='space-y-6'>
                         <input
@@ -67,7 +72,9 @@ const Contact = () => {
 
                         <button type='submit' className='w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]'>Send Message</button>
                     </form>
+
                 </div>
+
             </RevealOnScroll>
         </section>
     )
