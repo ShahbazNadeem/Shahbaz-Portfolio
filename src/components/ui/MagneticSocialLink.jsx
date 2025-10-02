@@ -34,7 +34,7 @@ const MagneticSocialLink = ({ children, link }) => {
 
 const SOCIAL_LINKS = [
     { label: <FaGithub size={25}/>, link: 'https://github.com/ShahbazNadeem' },
-    { label: <TbBrandLinkedin size={25}/>, link: 'https://www.linkedin.com/in/shahbaznadeem' },
+    { label: <TbBrandLinkedin size={25}/>, link: 'https://www.linkedin.com/in/shahbaz-nadeem-5a14a3386/' },
     { label: <FaInstagram size={25}/>, link: 'https://www.instagram.com/shahbaz_nadeem654/' },
     { label: <FaWhatsapp size={25}/>, link: 'https://wa.link/ix2zzq' },
 ];

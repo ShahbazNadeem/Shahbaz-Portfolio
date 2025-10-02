@@ -16,8 +16,28 @@ const About = () => {
                 <div className="max-w-3xl mx-auto px-4">
                     <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center'>About Me</h2>
 
-                    <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-8 border-white/10 border-[2px] hover:-translate-y-1 transition-all">
                         <p className='text-gray-300 mb-6'>Passionate developer with expertise in building scalable web applications and creating innovative solutions.</p>
+                        <p className='text-gray-300 mb-6'>
+                            ✅ 4+ years of experience <br/>
+                            ✅ Excelling in delivering Fortune 500-scale projects<br/>
+                            👌🏻 100 % Successfully delivered projects<br/><br/>
+
+                            Hi there! I'm a Senior Full Stack developer with over 4+ years of experience, I've collaborated with different companies. My expertise spans standalone and API-driven web applications and token-based RestFul API servers. Whether it's cutting-edge technologies or tailored project needs, I have the skills and knowledge to deliver.<br/><br/>
+
+                            Tech-stack:<br/>
+                            ⁃ Front-End Development: React.js, Vue.js, JavaScript, TypeScript, Tailwind CSS, HTML<br/>
+                            ⁃ Back-End Development: Node.js, Express.js, Next.js, Python, Django, Firebase,<br/>
+                            ⁃ Database Management: MySQL, MongoDB<br/>
+                            ⁃ API Integration: RESTful APIs, REST, FastAPI<br/>
+                            ⁃ AI Integration: Open AI, Claude, Gemini, ChatGPT, Llama<br/>
+                            ⁃ Version Control: Git, GitHub<br/><br/>
+
+                            My Approach<br/>
+                            I believe in clean, maintainable code and seamless user experiences. I deliver fast, with clear communication to help your business grow online.<br/><br/>
+
+                            Let's connect and talk about what you need — I’m ready to turn your vision into reality.
+                        </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -45,7 +65,7 @@ const About = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-white/10 border-[2px] hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
                             <ul>
                                 <li>
@@ -61,7 +81,7 @@ const About = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-white/10 border-[2px] hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                             <div className="space-y-4 text-gray-300">
                                 <div>

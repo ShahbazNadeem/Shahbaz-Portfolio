@@ -12,7 +12,7 @@ const Projects = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                         {projectsData?.map((items, index) => {
                             return (
-                                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+                                <div className="p-6 rounded-xl border-[2px] border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                                     <h3 className='text-xl font-bold mb-2'>{items?.title}</h3>
                                     <p className='text-gray-400 mb-4'>{items.description}</p>
                                     <h4 className='font-bold mb-2'> 💻 Technologies</h4>
@@ -26,9 +26,16 @@ const Projects = () => {
                                         })}
                                     </div>
 
-                                    <div className="flex justify-between items-center">
-                                        <a href={items.link} target='blank' className='text-blue-400 hover:text-blue-300'>View Projects &rarr;</a>
-                                    </div>
+                                    {items.gitLink &&
+                                        <div className="flex justify-between items-center">
+                                            <a href={items.gitLink} target='blank' className='text-blue-400 hover:text-blue-300'>Git Repo &rarr;</a>
+                                        </div>
+                                    }
+                                    {items.link &&
+                                        <div className="flex justify-between items-center">
+                                            <a href={items.link} target='blank' className='text-blue-400 hover:text-blue-300'>live Projects &rarr;</a>
+                                        </div>
+                                    }
                                 </div>
                             )
                         })}

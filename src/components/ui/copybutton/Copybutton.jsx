@@ -10,11 +10,11 @@ import { Button } from "./Button";
 
 function Copybutton() {
     const [copied, setCopied] = useState(false);
-    const email = "shahbaznadeem654@gmail.com"; // Your email
+    const email = "shahbaznadeem889@gmail.com";
 
     const handleCopy = async () => {
         try {
-            await navigator.clipboard.writeText(email); // Copy email to clipboard
+            await navigator.clipboard.writeText(email);
             setCopied(true);
             setTimeout(() => setCopied(false), 1500);
         } catch (err) {
