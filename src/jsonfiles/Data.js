@@ -3,7 +3,7 @@ export const projectsData = [
         id: 1,
         title: "AI Job Portal",
         description: "",
-        tech: ["Html", "Next js", "Css", "Framer/motion","bcryptjs","lottie-react","mammoth","mongoose","next-auth",],
+        tech: ["Html", "Next js", "Css", "Framer/motion", "bcryptjs", "lottie-react", "mammoth", "mongoose", "next-auth", "ollama", "openai", "pdf-parse"],
         gitLink: "https://github.com/ShahbazNadeem/job-portal-with-ai-resume-ranking-altest",
         link: "https://job-portal-with-ai-resume-ranking-a.vercel.app/"
     },
@@ -11,7 +11,7 @@ export const projectsData = [
         id: 2,
         title: "Food delivery app",
         description: "",
-        tech: ["Html", "Next js", "Swipper js", "Css", "Tailwind Css", "bcryptjs", "lottie-react", "mongoose","ollama","openai","pdf-parse"],
+        tech: ["Html", "Next js", "Swipper js", "Css", "Tailwind Css", "bcryptjs", "lottie-react", "mongoose"],
         gitLink: "https://github.com/ShahbazNadeem/food-delivery-app",
         link: "https://food-delivery-app-xi-red.vercel.app/"
     },
