@@ -77,7 +77,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                                <h3 className='text-xl font-bold mb-4'>Database Management</h3>
+                                <h3 className='text-xl font-bold mb-4'>Api Integration</h3>
                                 <div className="flex flex-wrap gap-2">
                                     {APIIntegration.map((tech, key) => (
                                         <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm :bg-blue-500/20  transition">
@@ -87,7 +87,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                                <h3 className='text-xl font-bold mb-4'>Database Management</h3>
+                                <h3 className='text-xl font-bold mb-4'>AI Integration</h3>
                                 <div className="flex flex-wrap gap-2">
                                     {AIIntegration.map((tech, key) => (
                                         <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm :bg-blue-500/20  transition">
@@ -97,7 +97,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                                <h3 className='text-xl font-bold mb-4'>Database Management</h3>
+                                <h3 className='text-xl font-bold mb-4'>Version Control</h3>
                                 <div className="flex flex-wrap gap-2">
                                     {VersionControl.map((tech, key) => (
                                         <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm :bg-blue-500/20  transition">
